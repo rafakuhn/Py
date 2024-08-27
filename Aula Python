@@ -1,0 +1,28 @@
+#Explicar o que deve ser feito
+print('Olá! Vamos calcular? Utilze os comandos como se fosse uma calculadora.\n')
+
+#Dados de entrada
+n1 = input('Digite o primeiro número: ')
+num1 = int(n1)
+print(n1)
+
+oper = input('\n Digite a operação podendo ser: \n * para multiplicação \n / para divisão \n + para soma \n - para subtração \n')
+
+n2 = input('\n Digite o segundo número: ')
+num2 = int(n2)
+
+#Lógicas e condições
+if oper == "*":
+  result = num1 * num2
+  print('O resultado é: ', result)
+elif oper == "/":
+  result = num1 / num2
+  print('O resultado é: ', result)
+elif oper == "+":
+  result = num1 + num2
+  print('O resultado é: ', result)
+elif oper == "-":
+  result = num1 - num2
+  print('O resultado é: ', result)
+else:
+  print('ERRO: Operador não identificado.')
